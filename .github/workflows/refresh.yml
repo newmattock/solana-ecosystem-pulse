@@ -1,0 +1,31 @@
+name: Refresh Solana pulse
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17,47 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Collect read-only public data
+        run: python3 report.py --out-dir out
+      - name: Commit changed snapshot
+        run: |
+          if git diff --quiet -- out; then
+            echo "No snapshot changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add out
+          git commit -m "chore: refresh Solana pulse"
+          git push
