@@ -63,6 +63,7 @@ class ReportTests(unittest.TestCase):
             self.assertTrue((Path(directory) / "report.json").exists())
             self.assertTrue((Path(directory) / "report.md").exists())
             self.assertTrue((Path(directory) / "dashboard.html").exists())
+            self.assertTrue((Path(directory) / "index.html").exists())
 
 
 if __name__ == "__main__":

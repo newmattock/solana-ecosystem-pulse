@@ -5,6 +5,7 @@
 - `report.json` for machines and downstream agents;
 - `report.md` for a concise human report; and
 - `dashboard.html`, a self-contained dark-theme dashboard with no CDN or API-key dependency.
+- `index.html`, the same dashboard under a conventional static-host root for optional GitHub Pages deployment.
 
 The collector never signs, sends, or simulates a transaction. It does not request a wallet, private key, API key, login, or user funds.
 

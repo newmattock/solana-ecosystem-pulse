@@ -566,7 +566,9 @@ def atomic_write(path: Path, contents: str) -> None:
 def write_outputs(snapshot: dict[str, Any], out_dir: Path) -> None:
     atomic_write(out_dir / "report.json", json.dumps(snapshot, indent=2, ensure_ascii=False) + "\n")
     atomic_write(out_dir / "report.md", markdown_report(snapshot))
-    atomic_write(out_dir / "dashboard.html", html_dashboard(snapshot))
+    dashboard = html_dashboard(snapshot)
+    atomic_write(out_dir / "dashboard.html", dashboard)
+    atomic_write(out_dir / "index.html", dashboard)
 
 
 def main(argv: list[str] | None = None) -> int:
