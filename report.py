@@ -569,6 +569,8 @@ def write_outputs(snapshot: dict[str, Any], out_dir: Path) -> None:
     dashboard = html_dashboard(snapshot)
     atomic_write(out_dir / "dashboard.html", dashboard)
     atomic_write(out_dir / "index.html", dashboard)
+    if out_dir.name == "out":
+        atomic_write(out_dir.parent / "index.html", dashboard)
 
 
 def main(argv: list[str] | None = None) -> int:
