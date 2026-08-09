@@ -7,9 +7,13 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
   refresh:
+    outputs:
+      changed: ${{ steps.snapshot.outputs.changed }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -19,8 +23,10 @@ jobs:
       - name: Collect read-only public data
         run: python3 report.py --out-dir out
       - name: Commit changed snapshot
+        id: snapshot
         run: |
           if git diff --quiet -- out; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "No snapshot changes."
             exit 0
           fi
@@ -29,3 +35,23 @@ jobs:
           git add out
           git commit -m "chore: refresh Solana pulse"
           git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+  deploy:
+    needs: refresh
+    if: needs.refresh.outputs.changed == 'true'
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+      - name: Deploy refreshed dashboard
+        id: deployment
+        uses: actions/deploy-pages@v4
