@@ -1,6 +1,6 @@
 # Solana Ecosystem Pulse
 
-Generated: `2026-08-12T11:28:16Z`  
+Generated: `2026-08-12T12:31:21Z`  
 Cluster: `mainnet-beta`  
 Read-only status: **OK**
 
@@ -11,30 +11,30 @@ Read-only status: **OK**
 | Metric | Value |
 | --- | ---: |
 | RPC health | `ok` |
-| Slot / block height | `438803200` / `416855406` |
-| Epoch / progress | `1015` / `74.81%` |
-| Recent throughput | `3.3K` TPS |
-| Recent slot time | `413.79` ms |
+| Slot / block height | `438812191` / `416864391` |
+| Epoch / progress | `1015` / `76.90%` |
+| Recent throughput | `5.5K` TPS |
+| Recent slot time | `425.53` ms |
 | Active validators | `689` |
 | Delinquent validators | `10` (1.43%) |
-| SOL price | `$76.77` (0.91% 24h) |
-| Solana TVL | `$4,845,216,976.00` |
+| SOL price | `$76.98` (1.43% 24h) |
+| Solana TVL | `$4,845,749,149.00` |
 | DEX volume | `$1,650,837,789.28` (24h) |
-| Stablecoin supply | `$16,296,898,365.68` |
+| Stablecoin supply | `$16,295,761,437.68` |
 
 ## Network performance
 
 | Sample | TPS | Slot time | Transactions |
 | ---: | ---: | ---: | ---: |
-| 60.0 s | 3.3K | 413.79 ms | 197K |
-| 60.0 s | 3.1K | 425.53 ms | 188K |
-| 60.0 s | 3.2K | 419.58 ms | 194K |
-| 60.0 s | 3.2K | 416.67 ms | 194K |
-| 60.0 s | 3.3K | 444.44 ms | 198K |
+| 60.0 s | 5.5K | 425.53 ms | 328K |
+| 60.0 s | 4.3K | 410.96 ms | 259K |
+| 60.0 s | 3.5K | 422.54 ms | 209K |
+| 60.0 s | 3.5K | 425.53 ms | 208K |
+| 60.0 s | 3.8K | 413.79 ms | 227K |
 
 ## Validator concentration
 
-Total active stake: `434705346B` lamports. The table is ranked by activated stake; vote and node keys are identifiers, not labels for operators.
+Total active stake: `434681261B` lamports. The table is ranked by activated stake; vote and node keys are identifiers, not labels for operators.
 
 | Rank | Vote account | Stake share | Commission |
 | ---: | --- | ---: | ---: |
@@ -51,6 +51,7 @@ Total active stake: `434705346B` lamports. The table is ranked by activated stak
 
 ## Signals
 
+- **watch** `tps-shift`
 - **watch** `validator-delinquency`
 
 ## Sources and limitations
