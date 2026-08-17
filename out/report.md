@@ -1,6 +1,6 @@
 # Solana Ecosystem Pulse
 
-Generated: `2026-08-17T07:14:21Z`  
+Generated: `2026-08-17T08:00:20Z`  
 Cluster: `mainnet-beta`  
 Read-only status: **OK**
 
@@ -11,14 +11,14 @@ Read-only status: **OK**
 | Metric | Value |
 | --- | ---: |
 | RPC health | `ok` |
-| Slot / block height | `439804165` / `417854700` |
-| Epoch / progress | `1018` / `6.52%` |
+| Slot / block height | `439810774` / `417861309` |
+| Epoch / progress | `1018` / `8.05%` |
 | Recent throughput | `3.1K` TPS |
-| Recent slot time | `413.79` ms |
-| Active validators | `689` |
-| Delinquent validators | `6` (0.86%) |
-| SOL price | `$75.79` (0.57% 24h) |
-| Solana TVL | `$4,815,897,578.00` |
+| Recent slot time | `428.57` ms |
+| Active validators | `688` |
+| Delinquent validators | `7` (1.01%) |
+| SOL price | `$75.72` (0.42% 24h) |
+| Solana TVL | `$4,817,665,321.00` |
 | DEX volume | `$1,053,725,616.95` (24h) |
 | Stablecoin supply | `$16,003,514,009.94` |
 
@@ -26,15 +26,15 @@ Read-only status: **OK**
 
 | Sample | TPS | Slot time | Transactions |
 | ---: | ---: | ---: | ---: |
-| 60.0 s | 3.1K | 413.79 ms | 185K |
-| 60.0 s | 2.8K | 408.16 ms | 170K |
-| 60.0 s | 2.8K | 425.53 ms | 170K |
-| 60.0 s | 2.9K | 408.16 ms | 174K |
-| 60.0 s | 2.9K | 408.16 ms | 173K |
+| 60.0 s | 3.1K | 428.57 ms | 183K |
+| 60.0 s | 3.2K | 408.16 ms | 190K |
+| 60.0 s | 2.8K | 428.57 ms | 166K |
+| 60.0 s | 2.9K | 410.96 ms | 175K |
+| 60.0 s | 2.8K | 408.16 ms | 169K |
 
 ## Validator concentration
 
-Total active stake: `435642720B` lamports. The table is ranked by activated stake; vote and node keys are identifiers, not labels for operators.
+Total active stake: `435628394B` lamports. The table is ranked by activated stake; vote and node keys are identifiers, not labels for operators.
 
 | Rank | Vote account | Stake share | Commission |
 | ---: | --- | ---: | ---: |
@@ -51,7 +51,7 @@ Total active stake: `435642720B` lamports. The table is ranked by activated stak
 
 ## Signals
 
-- No configured watch thresholds were crossed in this snapshot.
+- **watch** `validator-delinquency`
 
 ## Sources and limitations
 
