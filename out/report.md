@@ -1,6 +1,6 @@
 # Solana Ecosystem Pulse
 
-Generated: `2026-08-18T21:56:20Z`  
+Generated: `2026-08-18T22:39:12Z`  
 Cluster: `mainnet-beta`  
 Read-only status: **OK**
 
@@ -11,30 +11,30 @@ Read-only status: **OK**
 | Metric | Value |
 | --- | ---: |
 | RPC health | `ok` |
-| Slot / block height | `440139533` / `418189802` |
-| Epoch / progress | `1018` / `84.15%` |
+| Slot / block height | `440145745` / `418196010` |
+| Epoch / progress | `1018` / `85.59%` |
 | Recent throughput | `3.6K` TPS |
-| Recent slot time | `422.54` ms |
-| Active validators | `688` |
-| Delinquent validators | `7` (1.01%) |
-| SOL price | `$76.93` (1.38% 24h) |
-| Solana TVL | `$4,896,966,174.00` |
+| Recent slot time | `413.79` ms |
+| Active validators | `689` |
+| Delinquent validators | `6` (0.86%) |
+| SOL price | `$77.08` (1.75% 24h) |
+| Solana TVL | `$4,895,932,566.00` |
 | DEX volume | `$1,474,994,437.36` (24h) |
-| Stablecoin supply | `$15,977,577,686.75` |
+| Stablecoin supply | `$15,978,578,575.21` |
 
 ## Network performance
 
 | Sample | TPS | Slot time | Transactions |
 | ---: | ---: | ---: | ---: |
-| 60.0 s | 3.6K | 422.54 ms | 214K |
-| 60.0 s | 4.0K | 419.58 ms | 238K |
-| 60.0 s | 4.4K | 413.79 ms | 263K |
-| 60.0 s | 4.1K | 416.67 ms | 249K |
-| 60.0 s | 4.2K | 428.57 ms | 254K |
+| 60.0 s | 3.6K | 413.79 ms | 215K |
+| 60.0 s | 3.9K | 405.41 ms | 237K |
+| 60.0 s | 3.9K | 419.58 ms | 231K |
+| 60.0 s | 4.8K | 413.79 ms | 290K |
+| 60.0 s | 4.1K | 410.96 ms | 248K |
 
 ## Validator concentration
 
-Total active stake: `435626689B` lamports. The table is ranked by activated stake; vote and node keys are identifiers, not labels for operators.
+Total active stake: `435642720B` lamports. The table is ranked by activated stake; vote and node keys are identifiers, not labels for operators.
 
 | Rank | Vote account | Stake share | Commission |
 | ---: | --- | ---: | ---: |
@@ -51,7 +51,7 @@ Total active stake: `435626689B` lamports. The table is ranked by activated stak
 
 ## Signals
 
-- **watch** `validator-delinquency`
+- No configured watch thresholds were crossed in this snapshot.
 
 ## Sources and limitations
 
