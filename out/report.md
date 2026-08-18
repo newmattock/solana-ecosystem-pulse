@@ -1,6 +1,6 @@
 # Solana Ecosystem Pulse
 
-Generated: `2026-08-18T18:00:52Z`  
+Generated: `2026-08-18T18:54:31Z`  
 Cluster: `mainnet-beta`  
 Read-only status: **OK**
 
@@ -11,26 +11,26 @@ Read-only status: **OK**
 | Metric | Value |
 | --- | ---: |
 | RPC health | `ok` |
-| Slot / block height | `440105551` / `418155836` |
-| Epoch / progress | `1018` / `76.28%` |
-| Recent throughput | `4.0K` TPS |
-| Recent slot time | `413.79` ms |
+| Slot / block height | `440113279` / `418163560` |
+| Epoch / progress | `1018` / `78.07%` |
+| Recent throughput | `4.7K` TPS |
+| Recent slot time | `410.96` ms |
 | Active validators | `688` |
 | Delinquent validators | `7` (1.01%) |
-| SOL price | `$76.86` (1.31% 24h) |
-| Solana TVL | `$4,885,530,114.00` |
+| SOL price | `$77.17` (1.71% 24h) |
+| Solana TVL | `$4,895,885,674.00` |
 | DEX volume | `$1,474,970,358.36` (24h) |
-| Stablecoin supply | `$15,978,106,682.28` |
+| Stablecoin supply | `$15,977,966,489.59` |
 
 ## Network performance
 
 | Sample | TPS | Slot time | Transactions |
 | ---: | ---: | ---: | ---: |
-| 60.0 s | 4.0K | 413.79 ms | 242K |
-| 60.0 s | 4.3K | 413.79 ms | 259K |
-| 60.0 s | 4.4K | 408.16 ms | 265K |
-| 60.0 s | 4.4K | 410.96 ms | 265K |
-| 60.0 s | 4.0K | 422.54 ms | 239K |
+| 60.0 s | 4.7K | 410.96 ms | 284K |
+| 60.0 s | 4.2K | 410.96 ms | 254K |
+| 60.0 s | 4.1K | 416.67 ms | 247K |
+| 60.0 s | 4.2K | 419.58 ms | 249K |
+| 60.0 s | 4.6K | 428.57 ms | 276K |
 
 ## Validator concentration
 
