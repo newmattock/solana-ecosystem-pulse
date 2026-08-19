@@ -1,6 +1,6 @@
 # Solana Ecosystem Pulse
 
-Generated: `2026-08-19T19:57:39Z`  
+Generated: `2026-08-19T20:43:37Z`  
 Cluster: `mainnet-beta`  
 Read-only status: **OK**
 
@@ -11,43 +11,43 @@ Read-only status: **OK**
 | Metric | Value |
 | --- | ---: |
 | RPC health | `ok` |
-| Slot / block height | `440330055` / `418380026` |
-| Epoch / progress | `1019` / `28.25%` |
-| Recent throughput | `4.5K` TPS |
-| Recent slot time | `419.58` ms |
-| Active validators | `686` |
-| Delinquent validators | `9` (1.29%) |
-| SOL price | `$82.28` (6.78% 24h) |
-| Solana TVL | `$5,081,764,121.00` |
+| Slot / block height | `440336630` / `418386573` |
+| Epoch / progress | `1019` / `29.78%` |
+| Recent throughput | `4.7K` TPS |
+| Recent slot time | `408.16` ms |
+| Active validators | `688` |
+| Delinquent validators | `8` (1.15%) |
+| SOL price | `$82.54` (7.27% 24h) |
+| Solana TVL | `$5,085,822,024.00` |
 | DEX volume | `$1,838,194,723.04` (24h) |
-| Stablecoin supply | `$16,011,707,293.05` |
+| Stablecoin supply | `$16,008,361,915.32` |
 
 ## Network performance
 
 | Sample | TPS | Slot time | Transactions |
 | ---: | ---: | ---: | ---: |
-| 60.0 s | 4.5K | 419.58 ms | 270K |
-| 60.0 s | 4.9K | 408.16 ms | 294K |
-| 60.0 s | 5.2K | 413.79 ms | 315K |
-| 60.0 s | 5.6K | 422.54 ms | 337K |
-| 60.0 s | 4.5K | 422.54 ms | 269K |
+| 60.0 s | 4.7K | 408.16 ms | 282K |
+| 60.0 s | 4.1K | 434.78 ms | 247K |
+| 60.0 s | 4.3K | 425.53 ms | 259K |
+| 60.0 s | 3.8K | 419.58 ms | 228K |
+| 60.0 s | 4.8K | 422.54 ms | 286K |
 
 ## Validator concentration
 
-Total active stake: `419129623B` lamports. The table is ranked by activated stake; vote and node keys are identifiers, not labels for operators.
+Total active stake: `435141193B` lamports. The table is ranked by activated stake; vote and node keys are identifiers, not labels for operators.
 
 | Rank | Vote account | Stake share | Commission |
 | ---: | --- | ---: | ---: |
-| 1 | `CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1` | 4.08% | 7% |
-| 2 | `CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb` | 2.96% | 5% |
-| 3 | `3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g` | 2.91% | 0% |
-| 4 | `26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx` | 2.19% | 7% |
-| 5 | `51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm` | 2.15% | 10% |
-| 6 | `8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD` | 1.98% | 0% |
-| 7 | `9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF` | 1.91% | 7% |
-| 8 | `CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB` | 1.75% | 5% |
-| 9 | `DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a` | 1.56% | 0% |
-| 10 | `HZKopZYvv8v6un2H6KUNVQCnK5zM9emKKezvqhTBSpEc` | 1.46% | 100% |
+| 1 | `CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1` | 3.93% | 7% |
+| 2 | `he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk` | 3.68% | 0% |
+| 3 | `CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb` | 2.85% | 5% |
+| 4 | `3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g` | 2.80% | 0% |
+| 5 | `26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx` | 2.11% | 7% |
+| 6 | `51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm` | 2.07% | 10% |
+| 7 | `8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD` | 1.91% | 0% |
+| 8 | `9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF` | 1.84% | 7% |
+| 9 | `CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB` | 1.69% | 5% |
+| 10 | `DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a` | 1.50% | 0% |
 
 ## Signals
 
