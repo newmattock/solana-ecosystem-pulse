@@ -36,6 +36,26 @@ To use only Solana RPC and skip optional off-chain sources:
 python3 report.py --out-dir out --no-offchain
 ```
 
+To emit the snapshot as JSON on stdout (no files written) — handy for piping
+into `jq` or a downstream agent:
+
+```sh
+python3 report.py --stdout | jq '.health.rpc'
+
+# RPC-only JSON, e.g. inside a cron one-liner:
+python3 report.py --no-offchain --stdout > snapshot.json
+```
+
+Check the version:
+
+```sh
+python3 report.py --version   # solana-ecosystem-pulse 1.1.0
+```
+
+When `--no-offchain` is used, off-chain sources are still listed in
+`report.json` under `sources` with an explicit `skipped (--no-offchain)` note,
+so downstream consumers can tell "deliberately skipped" apart from "failed".
+
 ## Data sources
 
 The Solana RPC collector calls `getHealth`, `getSlot`, `getBlockHeight`, `getBlockTime`, `getEpochInfo`, `getRecentPerformanceSamples`, `getVoteAccounts`, and `getSupply`. The default endpoint is the public Solana mainnet-beta RPC.
@@ -55,7 +75,9 @@ Signals are screening aids, not investment advice or proof of a protocol inciden
 ## Test
 
 ```sh
-python3 -m unittest -v
+python3 -m unittest -v        # stdlib runner (no extra deps)
+# or
+pip install pytest && pytest   # same suite, via pytest
 ```
 
 ## License
