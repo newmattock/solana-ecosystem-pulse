@@ -1,6 +1,6 @@
 # Solana Ecosystem Pulse
 
-Generated: `2026-08-20T16:13:38Z`  
+Generated: `2026-08-20T16:49:54Z`  
 Cluster: `mainnet-beta`  
 Read-only status: **OK**
 
@@ -11,14 +11,14 @@ Read-only status: **OK**
 | Metric | Value |
 | --- | ---: |
 | RPC health | `ok` |
-| Slot / block height | `440505416` / `418555228` |
-| Epoch / progress | `1019` / `68.85%` |
-| Recent throughput | `4.5K` TPS |
+| Slot / block height | `440510631` / `418560439` |
+| Epoch / progress | `1019` / `70.05%` |
+| Recent throughput | `5.0K` TPS |
 | Recent slot time | `413.79` ms |
-| Active validators | `689` |
-| Delinquent validators | `7` (1.01%) |
-| SOL price | `$87.29` (6.69% 24h) |
-| Solana TVL | `$5,288,651,575.00` |
+| Active validators | `690` |
+| Delinquent validators | `6` (0.86%) |
+| SOL price | `$87.48` (6.83% 24h) |
+| Solana TVL | `$5,286,943,016.00` |
 | DEX volume | `$3,009,837,694.95` (24h) |
 | Stablecoin supply | `$16,323,700,330.96` |
 
@@ -26,15 +26,15 @@ Read-only status: **OK**
 
 | Sample | TPS | Slot time | Transactions |
 | ---: | ---: | ---: | ---: |
-| 60.0 s | 4.5K | 413.79 ms | 269K |
-| 60.0 s | 4.8K | 410.96 ms | 285K |
-| 60.0 s | 4.7K | 416.67 ms | 281K |
-| 60.0 s | 4.7K | 422.54 ms | 285K |
-| 60.0 s | 4.5K | 410.96 ms | 271K |
+| 60.0 s | 5.0K | 413.79 ms | 299K |
+| 60.0 s | 4.3K | 419.58 ms | 256K |
+| 60.0 s | 5.1K | 410.96 ms | 305K |
+| 60.0 s | 5.2K | 408.16 ms | 313K |
+| 60.0 s | 5.1K | 413.79 ms | 303K |
 
 ## Validator concentration
 
-Total active stake: `435181935B` lamports. The table is ranked by activated stake; vote and node keys are identifiers, not labels for operators.
+Total active stake: `435235713B` lamports. The table is ranked by activated stake; vote and node keys are identifiers, not labels for operators.
 
 | Rank | Vote account | Stake share | Commission |
 | ---: | --- | ---: | ---: |
@@ -51,7 +51,7 @@ Total active stake: `435181935B` lamports. The table is ranked by activated stak
 
 ## Signals
 
-- **watch** `validator-delinquency`
+- No configured watch thresholds were crossed in this snapshot.
 
 ## Sources and limitations
 
