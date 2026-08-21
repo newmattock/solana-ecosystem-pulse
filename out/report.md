@@ -1,6 +1,6 @@
 # Solana Ecosystem Pulse
 
-Generated: `2026-08-21T06:05:28Z`  
+Generated: `2026-08-21T07:05:46Z`  
 Cluster: `mainnet-beta`  
 Read-only status: **OK**
 
@@ -11,30 +11,30 @@ Read-only status: **OK**
 | Metric | Value |
 | --- | ---: |
 | RPC health | `ok` |
-| Slot / block height | `440625445` / `418675153` |
-| Epoch / progress | `1019` / `96.63%` |
-| Recent throughput | `3.5K` TPS |
-| Recent slot time | `413.79` ms |
-| Active validators | `690` |
-| Delinquent validators | `6` (0.86%) |
-| SOL price | `$90.87` (7.21% 24h) |
-| Solana TVL | `$5,372,198,947.00` |
+| Slot / block height | `440634170` / `418683877` |
+| Epoch / progress | `1019` / `98.65%` |
+| Recent throughput | `3.4K` TPS |
+| Recent slot time | `416.67` ms |
+| Active validators | `689` |
+| Delinquent validators | `7` (1.01%) |
+| SOL price | `$90.53` (5.49% 24h) |
+| Solana TVL | `$5,380,324,822.00` |
 | DEX volume | `$2,781,215,932.33` (24h) |
-| Stablecoin supply | `$16,515,138,434.62` |
+| Stablecoin supply | `$16,515,048,691.60` |
 
 ## Network performance
 
 | Sample | TPS | Slot time | Transactions |
 | ---: | ---: | ---: | ---: |
-| 60.0 s | 3.5K | 413.79 ms | 207K |
-| 60.0 s | 3.6K | 405.41 ms | 219K |
-| 60.0 s | 3.5K | 410.96 ms | 210K |
-| 60.0 s | 3.4K | 428.57 ms | 205K |
-| 60.0 s | 3.6K | 413.79 ms | 216K |
+| 60.0 s | 3.4K | 416.67 ms | 202K |
+| 60.0 s | 3.5K | 416.67 ms | 210K |
+| 60.0 s | 3.3K | 408.16 ms | 198K |
+| 60.0 s | 3.7K | 408.16 ms | 219K |
+| 60.0 s | 3.0K | 416.67 ms | 181K |
 
 ## Validator concentration
 
-Total active stake: `435235713B` lamports. The table is ranked by activated stake; vote and node keys are identifiers, not labels for operators.
+Total active stake: `435168044B` lamports. The table is ranked by activated stake; vote and node keys are identifiers, not labels for operators.
 
 | Rank | Vote account | Stake share | Commission |
 | ---: | --- | ---: | ---: |
@@ -51,7 +51,7 @@ Total active stake: `435235713B` lamports. The table is ranked by activated stak
 
 ## Signals
 
-- No configured watch thresholds were crossed in this snapshot.
+- **watch** `validator-delinquency`
 
 ## Sources and limitations
 
