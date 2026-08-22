@@ -1,6 +1,6 @@
 # Solana Ecosystem Pulse
 
-Generated: `2026-08-21T23:58:19Z`  
+Generated: `2026-08-22T01:48:20Z`  
 Cluster: `mainnet-beta`  
 Read-only status: **OK**
 
@@ -11,36 +11,36 @@ Read-only status: **OK**
 | Metric | Value |
 | --- | ---: |
 | RPC health | `ok` |
-| Slot / block height | `440799243` / `418848777` |
-| Epoch / progress | `1020` / `36.86%` |
-| Recent throughput | `4.2K` TPS |
+| Slot / block height | `440817241` / `418866751` |
+| Epoch / progress | `1020` / `41.03%` |
+| Recent throughput | `3.5K` TPS |
 | Recent slot time | `361.45` ms |
 | Active validators | `682` |
 | Delinquent validators | `12` (1.73%) |
-| SOL price | `$93.59` (6.82% 24h) |
-| Solana TVL | `$5,519,433,393.00` |
-| DEX volume | `$2,770,509,439.33` (24h) |
-| Stablecoin supply | `$16,516,961,657.70` |
+| SOL price | `$93.80` (5.54% 24h) |
+| Solana TVL | `$5,524,168,422.00` |
+| DEX volume | `$3,464,593,300.33` (24h) |
+| Stablecoin supply | `$16,517,448,441.60` |
 
 ## Network performance
 
 | Sample | TPS | Slot time | Transactions |
 | ---: | ---: | ---: | ---: |
-| 60.0 s | 4.2K | 361.45 ms | 252K |
-| 60.0 s | 4.6K | 359.28 ms | 278K |
-| 60.0 s | 4.2K | 370.37 ms | 255K |
-| 60.0 s | 4.5K | 372.67 ms | 268K |
-| 60.0 s | 4.7K | 363.64 ms | 283K |
+| 60.0 s | 3.5K | 361.45 ms | 208K |
+| 60.0 s | 3.4K | 368.10 ms | 204K |
+| 60.0 s | 3.6K | 368.10 ms | 214K |
+| 60.0 s | 3.9K | 359.28 ms | 237K |
+| 60.0 s | 3.5K | 375.00 ms | 210K |
 
 ## Validator concentration
 
-Total active stake: `433209683B` lamports. The table is ranked by activated stake; vote and node keys are identifiers, not labels for operators.
+Total active stake: `432436216B` lamports. The table is ranked by activated stake; vote and node keys are identifiers, not labels for operators.
 
 | Rank | Vote account | Stake share | Commission |
 | ---: | --- | ---: | ---: |
-| 1 | `CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1` | 3.94% | 7% |
+| 1 | `CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1` | 3.95% | 7% |
 | 2 | `he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk` | 3.71% | 0% |
-| 3 | `3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g` | 2.81% | 0% |
+| 3 | `3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g` | 2.82% | 0% |
 | 4 | `CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb` | 2.72% | 5% |
 | 5 | `26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx` | 2.12% | 7% |
 | 6 | `51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm` | 2.06% | 10% |
