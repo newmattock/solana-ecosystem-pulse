@@ -1,6 +1,6 @@
 # Solana Ecosystem Pulse
 
-Generated: `2026-08-23T10:37:22Z`  
+Generated: `2026-08-23T10:58:29Z`  
 Cluster: `mainnet-beta`  
 Read-only status: **OK**
 
@@ -11,37 +11,37 @@ Read-only status: **OK**
 | Metric | Value |
 | --- | ---: |
 | RPC health | `ok` |
-| Slot / block height | `441139417` / `419188581` |
-| Epoch / progress | `1021` / `15.61%` |
+| Slot / block height | `441142866` / `419192030` |
+| Epoch / progress | `1021` / `16.40%` |
 | Recent throughput | `3.1K` TPS |
-| Recent slot time | `361.45` ms |
-| Active validators | `684` |
-| Delinquent validators | `11` (1.58%) |
-| SOL price | `$93.86` (1.17% 24h) |
+| Recent slot time | `363.64` ms |
+| Active validators | `683` |
+| Delinquent validators | `12` (1.73%) |
+| SOL price | `$93.69` (1.02% 24h) |
 | Solana TVL | `$5,492,632,617.00` |
-| DEX volume | `$3,648,052,188.89` (24h) |
+| DEX volume | `$3,732,294,477.70` (24h) |
 | Stablecoin supply | `$16,372,608,186.89` |
 
 ## Network performance
 
 | Sample | TPS | Slot time | Transactions |
 | ---: | ---: | ---: | ---: |
-| 60.0 s | 3.1K | 361.45 ms | 187K |
-| 60.0 s | 3.0K | 379.75 ms | 183K |
-| 60.0 s | 3.3K | 361.45 ms | 197K |
-| 60.0 s | 3.3K | 370.37 ms | 196K |
-| 60.0 s | 3.2K | 370.37 ms | 195K |
+| 60.0 s | 3.1K | 363.64 ms | 183K |
+| 60.0 s | 3.2K | 377.36 ms | 192K |
+| 60.0 s | 3.1K | 370.37 ms | 184K |
+| 60.0 s | 3.0K | 363.64 ms | 179K |
+| 60.0 s | 3.2K | 361.45 ms | 194K |
 
 ## Validator concentration
 
-Total active stake: `432030880B` lamports. The table is ranked by activated stake; vote and node keys are identifiers, not labels for operators.
+Total active stake: `431949125B` lamports. The table is ranked by activated stake; vote and node keys are identifiers, not labels for operators.
 
 | Rank | Vote account | Stake share | Commission |
 | ---: | --- | ---: | ---: |
 | 1 | `CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1` | 3.93% | 7% |
 | 2 | `he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk` | 3.71% | 0% |
 | 3 | `3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g` | 2.83% | 0% |
-| 4 | `CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb` | 2.71% | 5% |
+| 4 | `CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb` | 2.72% | 5% |
 | 5 | `26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx` | 2.12% | 7% |
 | 6 | `51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm` | 2.05% | 10% |
 | 7 | `8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD` | 1.96% | 0% |
