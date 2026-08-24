@@ -1,6 +1,6 @@
 # Solana Ecosystem Pulse
 
-Generated: `2026-08-24T18:04:22Z`  
+Generated: `2026-08-24T18:57:48Z`  
 Cluster: `mainnet-beta`  
 Read-only status: **OK**
 
@@ -11,14 +11,14 @@ Read-only status: **OK**
 | Metric | Value |
 | --- | ---: |
 | RPC health | `ok` |
-| Slot / block height | `441449328` / `419498260` |
-| Epoch / progress | `1021` / `87.34%` |
-| Recent throughput | `4.4K` TPS |
+| Slot / block height | `441458056` / `419506987` |
+| Epoch / progress | `1021` / `89.36%` |
+| Recent throughput | `4.3K` TPS |
 | Recent slot time | `365.85` ms |
 | Active validators | `685` |
 | Delinquent validators | `10` (1.44%) |
-| SOL price | `$95.45` (0.39% 24h) |
-| Solana TVL | `$5,623,431,667.00` |
+| SOL price | `$95.94` (0.80% 24h) |
+| Solana TVL | `$5,607,788,318.00` |
 | DEX volume | `$2,938,613,605.25` (24h) |
 | Stablecoin supply | `$16,452,435,964.91` |
 
@@ -26,20 +26,20 @@ Read-only status: **OK**
 
 | Sample | TPS | Slot time | Transactions |
 | ---: | ---: | ---: | ---: |
-| 60.0 s | 4.4K | 365.85 ms | 266K |
-| 60.0 s | 4.2K | 363.64 ms | 255K |
-| 60.0 s | 4.4K | 368.10 ms | 264K |
-| 60.0 s | 4.0K | 370.37 ms | 238K |
-| 60.0 s | 3.8K | 370.37 ms | 228K |
+| 60.0 s | 4.3K | 365.85 ms | 255K |
+| 60.0 s | 5.0K | 375.00 ms | 301K |
+| 60.0 s | 4.6K | 365.85 ms | 276K |
+| 60.0 s | 4.2K | 372.67 ms | 252K |
+| 60.0 s | 3.9K | 368.10 ms | 236K |
 
 ## Validator concentration
 
-Total active stake: `433282062B` lamports. The table is ranked by activated stake; vote and node keys are identifiers, not labels for operators.
+Total active stake: `432721631B` lamports. The table is ranked by activated stake; vote and node keys are identifiers, not labels for operators.
 
 | Rank | Vote account | Stake share | Commission |
 | ---: | --- | ---: | ---: |
 | 1 | `CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1` | 3.92% | 7% |
-| 2 | `he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk` | 3.70% | 0% |
+| 2 | `he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk` | 3.71% | 0% |
 | 3 | `3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g` | 2.82% | 0% |
 | 4 | `CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb` | 2.71% | 5% |
 | 5 | `26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx` | 2.12% | 7% |
