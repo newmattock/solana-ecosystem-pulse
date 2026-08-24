@@ -1,6 +1,6 @@
 # Solana Ecosystem Pulse
 
-Generated: `2026-08-24T18:57:48Z`  
+Generated: `2026-08-24T19:42:22Z`  
 Cluster: `mainnet-beta`  
 Read-only status: **OK**
 
@@ -11,35 +11,35 @@ Read-only status: **OK**
 | Metric | Value |
 | --- | ---: |
 | RPC health | `ok` |
-| Slot / block height | `441458056` / `419506987` |
-| Epoch / progress | `1021` / `89.36%` |
-| Recent throughput | `4.3K` TPS |
-| Recent slot time | `365.85` ms |
+| Slot / block height | `441465344` / `419514275` |
+| Epoch / progress | `1021` / `91.05%` |
+| Recent throughput | `4.8K` TPS |
+| Recent slot time | `384.62` ms |
 | Active validators | `685` |
 | Delinquent validators | `10` (1.44%) |
-| SOL price | `$95.94` (0.80% 24h) |
-| Solana TVL | `$5,607,788,318.00` |
+| SOL price | `$96.41` (1.27% 24h) |
+| Solana TVL | `$5,582,141,676.00` |
 | DEX volume | `$2,938,613,605.25` (24h) |
-| Stablecoin supply | `$16,452,435,964.91` |
+| Stablecoin supply | `$16,453,843,622.37` |
 
 ## Network performance
 
 | Sample | TPS | Slot time | Transactions |
 | ---: | ---: | ---: | ---: |
-| 60.0 s | 4.3K | 365.85 ms | 255K |
-| 60.0 s | 5.0K | 375.00 ms | 301K |
-| 60.0 s | 4.6K | 365.85 ms | 276K |
-| 60.0 s | 4.2K | 372.67 ms | 252K |
-| 60.0 s | 3.9K | 368.10 ms | 236K |
+| 60.0 s | 4.8K | 384.62 ms | 288K |
+| 60.0 s | 4.6K | 363.64 ms | 278K |
+| 60.0 s | 4.4K | 372.67 ms | 263K |
+| 60.0 s | 4.3K | 375.00 ms | 258K |
+| 60.0 s | 4.7K | 359.28 ms | 281K |
 
 ## Validator concentration
 
-Total active stake: `432721631B` lamports. The table is ranked by activated stake; vote and node keys are identifiers, not labels for operators.
+Total active stake: `432844903B` lamports. The table is ranked by activated stake; vote and node keys are identifiers, not labels for operators.
 
 | Rank | Vote account | Stake share | Commission |
 | ---: | --- | ---: | ---: |
 | 1 | `CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1` | 3.92% | 7% |
-| 2 | `he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk` | 3.71% | 0% |
+| 2 | `he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk` | 3.70% | 0% |
 | 3 | `3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g` | 2.82% | 0% |
 | 4 | `CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb` | 2.71% | 5% |
 | 5 | `26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx` | 2.12% | 7% |
