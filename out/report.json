@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-08-27T10:35:08Z",
+  "generatedAt": "2026-08-27T20:45:31Z",
   "network": {
     "name": "Solana",
     "cluster": "mainnet-beta",
@@ -10,176 +10,176 @@
     "rpc": "ok",
     "rpcChecksPassed": 7,
     "rpcChecksTotal": 7,
-    "slot": 442084512,
-    "blockHeight": 420132783,
-    "blockTime": 1787826897
+    "slot": 442184452,
+    "blockHeight": 420232675,
+    "blockTime": 1787863520
   },
   "epoch": {
     "epoch": 1023,
-    "absoluteSlot": 442084512,
-    "slotIndex": 148512,
+    "absoluteSlot": 442184452,
+    "slotIndex": 248452,
     "slotsInEpoch": 432000,
-    "transactionCount": 542349540484,
-    "progress": 0.3437777777777778
+    "transactionCount": 542512384229,
+    "progress": 0.5751203703703703
   },
   "performance": {
     "sampleCount": 5,
     "latest": {
-      "numTransactions": 198762.0,
+      "numTransactions": 226337.0,
       "samplePeriodSecs": 60.0,
-      "numSlots": 164.0,
-      "tps": 3312.7,
-      "slotTimeMs": 365.8536585365854
+      "numSlots": 163.0,
+      "tps": 3772.2833333333333,
+      "slotTimeMs": 368.09815950920245
     },
     "samples": [
       {
-        "numTransactions": 198762.0,
+        "numTransactions": 226337.0,
+        "samplePeriodSecs": 60.0,
+        "numSlots": 163.0,
+        "tps": 3772.2833333333333,
+        "slotTimeMs": 368.09815950920245
+      },
+      {
+        "numTransactions": 233570.0,
+        "samplePeriodSecs": 60.0,
+        "numSlots": 162.0,
+        "tps": 3892.8333333333335,
+        "slotTimeMs": 370.3703703703704
+      },
+      {
+        "numTransactions": 227113.0,
         "samplePeriodSecs": 60.0,
         "numSlots": 164.0,
-        "tps": 3312.7,
+        "tps": 3785.2166666666667,
         "slotTimeMs": 365.8536585365854
       },
       {
-        "numTransactions": 206321.0,
+        "numTransactions": 229932.0,
         "samplePeriodSecs": 60.0,
-        "numSlots": 165.0,
-        "tps": 3438.6833333333334,
-        "slotTimeMs": 363.6363636363636
+        "numSlots": 162.0,
+        "tps": 3832.2,
+        "slotTimeMs": 370.3703703703704
       },
       {
-        "numTransactions": 213353.0,
-        "samplePeriodSecs": 60.0,
-        "numSlots": 164.0,
-        "tps": 3555.883333333333,
-        "slotTimeMs": 365.8536585365854
-      },
-      {
-        "numTransactions": 211608.0,
+        "numTransactions": 216877.0,
         "samplePeriodSecs": 60.0,
         "numSlots": 166.0,
-        "tps": 3526.8,
-        "slotTimeMs": 361.4457831325301
-      },
-      {
-        "numTransactions": 239429.0,
-        "samplePeriodSecs": 60.0,
-        "numSlots": 166.0,
-        "tps": 3990.483333333333,
+        "tps": 3614.616666666667,
         "slotTimeMs": 361.4457831325301
       }
     ],
     "anomaly": {
-      "baselineTps": 3541.3416666666667,
-      "baselineSlotTimeMs": 362.54107338444686,
-      "tpsDelta": -0.06456357171599282,
-      "slotTimeDelta": 0.009137130646231036,
+      "baselineTps": 3808.708333333333,
+      "baselineSlotTimeMs": 368.11201445347785,
+      "tpsDelta": -0.00956360971020352,
+      "slotTimeDelta": -3.7637848620557146e-05,
       "flags": []
     }
   },
   "validators": {
-    "currentCount": 685,
-    "delinquentCount": 12,
-    "delinquentRate": 0.01721664275466284,
-    "totalStake": 436755704478899392,
+    "currentCount": 686,
+    "delinquentCount": 11,
+    "delinquentRate": 0.015781922525107604,
+    "totalStake": 432914100510393024,
     "top": [
       {
         "votePubkey": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
         "nodePubkey": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
         "activatedStake": 17062868774618928,
-        "stakeShare": 0.039067306046928284,
+        "stakeShare": 0.03941398248405932,
         "commission": 7
       },
       {
         "votePubkey": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
         "nodePubkey": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
         "activatedStake": 16029433065443384,
-        "stakeShare": 0.036701141853586944,
+        "stakeShare": 0.03702682136374203,
         "commission": 0
       },
       {
         "votePubkey": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
         "nodePubkey": "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
         "activatedStake": 12314378811445076,
-        "stakeShare": 0.02819511842698785,
+        "stakeShare": 0.028445316973798693,
         "commission": 0
       },
       {
         "votePubkey": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
         "nodePubkey": "JUPiTERrZqgf1jUyR7dSkhMx4Kn2qJyekWsg3LT1h4b",
         "activatedStake": 11751683357870570,
-        "stakeShare": 0.02690676558395889,
+        "stakeShare": 0.02714553151310082,
         "commission": 5
       },
       {
         "votePubkey": "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx",
         "nodePubkey": "C8Bey3LKVJHVqN6xPTeW8WJfUgFQAeGNBpT4Rp99JP1k",
         "activatedStake": 9216851869710824,
-        "stakeShare": 0.02110299138670119,
+        "stakeShare": 0.021290255639269836,
         "commission": 7
       },
       {
         "votePubkey": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
         "nodePubkey": "E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL",
         "activatedStake": 9051083502426208,
-        "stakeShare": 0.020723446562020773,
+        "stakeShare": 0.02090734280023507,
         "commission": 0
       },
       {
         "votePubkey": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",
         "nodePubkey": "CAo1dCGYrB6NhHh5xb1cGjUiu86iyCfMTENxgHumSve4",
         "activatedStake": 8904594619007280,
-        "stakeShare": 0.020388044226306103,
+        "stakeShare": 0.02056896416288826,
         "commission": 10
       },
       {
         "votePubkey": "9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF",
         "nodePubkey": "EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4",
         "activatedStake": 7849682129315226,
-        "stakeShare": 0.017972706592764058,
+        "stakeShare": 0.018132193245867206,
         "commission": 7
       },
       {
         "votePubkey": "CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB",
         "nodePubkey": "9eGrDohdNTAo61DRHyfMuqKWXqYnA3i254Wiszxe8FoY",
         "activatedStake": 7301740173085699,
-        "stakeShare": 0.016718133497071387,
+        "stakeShare": 0.016866487288072073,
         "commission": 5
       },
       {
         "votePubkey": "DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a",
         "nodePubkey": "Awes4Tr6TX8JDzEhCZY2QVNimT6iD1zWHzf1vNyGvpLM",
         "activatedStake": 6578260799686236,
-        "stakeShare": 0.015061648267502012,
+        "stakeShare": 0.01519530269845833,
         "commission": 0
       }
     ]
   },
   "supply": {
-    "totalLamports": 632969631001100910,
-    "circulatingLamports": 584062815103476008,
-    "nonCirculatingLamports": 48906815897624902
+    "totalLamports": 632969203169879910,
+    "circulatingLamports": 584062392267689248,
+    "nonCirculatingLamports": 48906810902190662
   },
   "economics": {
     "sol": {
-      "priceUsd": 103.93,
-      "change24h": 7.546587917924991
+      "priceUsd": 109.12,
+      "change24h": 12.912779760031725
     },
     "tvl": {
-      "tvlUsd": 5782683285.0,
+      "tvlUsd": 5944324050.0,
       "date": 1787788800
     },
     "chainOverview": {
-      "tvlUsd": 5782711174.992931,
+      "tvlUsd": 5944312218.249551,
       "stablecoinsUsd": null,
       "mcapUsd": null
     },
     "dex": {
-      "volume24hUsd": 2481205722.0,
-      "volume7dUsd": 21071930970.330006,
-      "change24h": -15.46
+      "volume24hUsd": 2351677355.0,
+      "volume7dUsd": 21321486070.330006,
+      "change24h": -19.87
     },
     "stablecoins": {
-      "supplyUsd": 16294459669.650002,
+      "supplyUsd": 16294287605.64,
       "date": "1787788800"
     }
   },
@@ -188,62 +188,62 @@
       "severity": "watch",
       "signal": "validator-delinquency",
       "details": {
-        "rate": 0.01721664275466284
+        "rate": 0.015781922525107604
       }
     }
   ],
   "sources": {
-    "blockHeight": {
-      "ok": true,
-      "elapsedMs": 425
-    },
-    "performance": {
-      "ok": true,
-      "elapsedMs": 425
-    },
     "slot": {
       "ok": true,
-      "elapsedMs": 430
+      "elapsedMs": 591
     },
     "epochInfo": {
       "ok": true,
-      "elapsedMs": 442
+      "elapsedMs": 593
+    },
+    "performance": {
+      "ok": true,
+      "elapsedMs": 592
+    },
+    "blockHeight": {
+      "ok": true,
+      "elapsedMs": 595
     },
     "health": {
       "ok": true,
-      "elapsedMs": 457
+      "elapsedMs": 596
     },
     "voteAccounts": {
       "ok": true,
-      "elapsedMs": 917
+      "elapsedMs": 1311
     },
     "supply": {
       "ok": true,
-      "elapsedMs": 7615
+      "elapsedMs": 7912
     },
     "solPrice": {
       "ok": true,
-      "elapsedMs": 43
+      "elapsedMs": 105
     },
     "stablecoins": {
       "ok": true,
-      "elapsedMs": 89
+      "elapsedMs": 136
     },
     "chainOverview": {
       "ok": true,
-      "elapsedMs": 139
+      "elapsedMs": 211
     },
     "chainTvl": {
       "ok": true,
-      "elapsedMs": 141
+      "elapsedMs": 213
     },
     "dexOverview": {
       "ok": true,
-      "elapsedMs": 2059
+      "elapsedMs": 1898
     },
     "blockTime": {
       "ok": true,
-      "elapsedMs": 306
+      "elapsedMs": 462
     }
   }
 }
