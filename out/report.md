@@ -1,6 +1,6 @@
 # Solana Ecosystem Pulse
 
-Generated: `2026-09-08T23:39:41Z`  
+Generated: `2026-09-09T01:31:33Z`  
 Cluster: `mainnet-beta`  
 Read-only status: **OK**
 
@@ -11,30 +11,30 @@ Read-only status: **OK**
 | Metric | Value |
 | --- | ---: |
 | RPC health | `ok` |
-| Slot / block height | `445465259` / `423509153` |
-| Epoch / progress | `1031` / `16.96%` |
-| Recent throughput | `3.6K` TPS |
-| Recent slot time | `319.15` ms |
-| Active validators | `675` |
-| Delinquent validators | `12` (1.75%) |
-| SOL price | `$103.42` (-0.31% 24h) |
-| Solana TVL | `$5,915,350,799.00` |
-| DEX volume | `$2,720,639,104.66` (24h) |
-| Stablecoin supply | `$16,696,483,331.39` |
+| Slot / block height | `445486412` / `423530299` |
+| Epoch / progress | `1031` / `21.85%` |
+| Recent throughput | `4.1K` TPS |
+| Recent slot time | `320.86` ms |
+| Active validators | `677` |
+| Delinquent validators | `10` (1.46%) |
+| SOL price | `$103.54` (-0.63% 24h) |
+| Solana TVL | `$5,919,735,586.00` |
+| DEX volume | `$2,578,119,137.34` (24h) |
+| Stablecoin supply | `$16,696,546,657.15` |
 
 ## Network performance
 
 | Sample | TPS | Slot time | Transactions |
 | ---: | ---: | ---: | ---: |
-| 60.0 s | 3.6K | 319.15 ms | 216K |
-| 60.0 s | 3.8K | 314.14 ms | 229K |
-| 60.0 s | 3.9K | 317.46 ms | 233K |
-| 60.0 s | 3.9K | 317.46 ms | 236K |
-| 60.0 s | 4.0K | 317.46 ms | 238K |
+| 60.0 s | 4.1K | 320.86 ms | 247K |
+| 60.0 s | 4.3K | 314.14 ms | 258K |
+| 60.0 s | 4.3K | 320.86 ms | 259K |
+| 60.0 s | 4.8K | 315.79 ms | 286K |
+| 60.0 s | 4.5K | 320.86 ms | 270K |
 
 ## Validator concentration
 
-Total active stake: `438343893B` lamports. The table is ranked by activated stake; vote and node keys are identifiers, not labels for operators.
+Total active stake: `438602466B` lamports. The table is ranked by activated stake; vote and node keys are identifiers, not labels for operators.
 
 | Rank | Vote account | Stake share | Commission |
 | ---: | --- | ---: | ---: |
@@ -46,7 +46,7 @@ Total active stake: `438343893B` lamports. The table is ranked by activated stak
 | 6 | `26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx` | 2.12% | 7% |
 | 7 | `51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm` | 2.06% | 10% |
 | 8 | `9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF` | 1.67% | 7% |
-| 9 | `CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB` | 1.57% | 5% |
+| 9 | `CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB` | 1.56% | 5% |
 | 10 | `DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a` | 1.51% | 0% |
 
 ## Signals
