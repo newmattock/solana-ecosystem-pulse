@@ -26,7 +26,8 @@ from urllib.request import Request, urlopen
 
 DEFAULT_RPC = "https://api.mainnet-beta.solana.com"
 SCHEMA_VERSION = "1.0"
-USER_AGENT = "solana-ecosystem-pulse/1.0 (read-only public data)"
+VERSION = "1.1.0"
+USER_AGENT = f"solana-ecosystem-pulse/{VERSION} (read-only public data)"
 
 
 class FetchError(RuntimeError):
@@ -108,6 +109,22 @@ def safe_ratio(numerator: float, denominator: float) -> float | None:
     if denominator == 0:
         return None
     return numerator / denominator
+
+
+def epoch_progress(slot_index: Any, slots_in_epoch: Any) -> float | None:
+    """Fraction of the current epoch elapsed, or None when it cannot be computed.
+
+    The RPC may return strings or surprising types; never let a bad value crash
+    the whole best-effort report.
+    """
+    if slot_index is None or slots_in_epoch is None:
+        return None
+    try:
+        index = float(slot_index)
+        total = float(slots_in_epoch)
+    except (TypeError, ValueError):
+        return None
+    return safe_ratio(index, total)
 
 
 def performance_summary(samples: Any) -> dict[str, Any]:
@@ -303,6 +320,11 @@ def collect(rpc_url: str = DEFAULT_RPC, include_offchain: bool = True) -> dict[s
                         result.pop("value", None)
                         result["error"] = f"parse error: {exc}"
                 checks[label] = result
+    else:
+        # Keep the report honest: mark off-chain sources as intentionally
+        # skipped rather than silently omitting them from source_status.
+        for label, (url, _parser) in offchain_specs.items():
+            checks[label] = {"label": label, "ok": False, "elapsedMs": 0, "value": None, "error": "skipped (--no-offchain)"}
 
     slot_result = checks.get("slot", {}).get("value")
     slot = int(slot_result) if isinstance(slot_result, (int, float)) else None
@@ -347,9 +369,7 @@ def collect(rpc_url: str = DEFAULT_RPC, include_offchain: bool = True) -> dict[s
             "slotIndex": epoch.get("slotIndex"),
             "slotsInEpoch": epoch.get("slotsInEpoch"),
             "transactionCount": epoch.get("transactionCount"),
-            "progress": safe_ratio(float(epoch.get("slotIndex", 0)), float(epoch.get("slotsInEpoch", 0)))
-            if epoch.get("slotIndex") is not None and epoch.get("slotsInEpoch")
-            else None,
+            "progress": epoch_progress(epoch.get("slotIndex"), epoch.get("slotsInEpoch")),
         },
         "performance": performance,
         "validators": validators,
@@ -402,6 +422,14 @@ def fmt_percent(value: Any) -> str:
     return "n/a" if number is None else f"{number * 100:.2f}%"
 
 
+def fmt_delta_pct(value: Any) -> str:
+    """Format a signed percentage-point change (e.g. 2.5 -> '+2.50%')."""
+    number = as_number(value)
+    if number is None:
+        return "n/a"
+    return f"{number:+.2f}%"
+
+
 def md_value(value: Any) -> str:
     return "n/a" if value is None else str(value)
 
@@ -438,7 +466,7 @@ def markdown_report(snapshot: dict[str, Any]) -> str:
         f"| Recent slot time | `{fmt_number(latest.get('slotTimeMs'), 2)}` ms |",
         f"| Active validators | `{md_value(validators.get('currentCount'))}` |",
         f"| Delinquent validators | `{md_value(validators.get('delinquentCount'))}` ({fmt_percent(validators.get('delinquentRate'))}) |",
-        f"| SOL price | `{fmt_usd(sol.get('priceUsd'))}` ({fmt_percent((sol.get('change24h') or 0) / 100 if sol.get('change24h') is not None else None)} 24h) |",
+        f"| SOL price | `{fmt_usd(sol.get('priceUsd'))}` ({fmt_delta_pct(sol.get('change24h'))} 24h) |",
         f"| Solana TVL | `{fmt_usd(tvl.get('tvlUsd'))}` |",
         f"| DEX volume | `{fmt_usd(dex.get('volume24hUsd'))}` (24h) |",
         f"| Stablecoin supply | `{fmt_usd(stablecoins.get('supplyUsd'))}` |",
@@ -579,13 +607,21 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--out-dir", default="out", type=Path)
     parser.add_argument("--interval", default=0, type=int, help="Repeat every N seconds; 0 means one snapshot.")
     parser.add_argument("--no-offchain", action="store_true", help="Only call Solana RPC; skip optional public data endpoints.")
+    parser.add_argument("--stdout", action="store_true", help="Write report.json to stdout instead of files.")
+    parser.add_argument("--version", action="store_true", help="Print version and exit.")
     args = parser.parse_args(argv)
+    if args.version:
+        print(f"solana-ecosystem-pulse {VERSION}")
+        return 0
     if args.interval < 0:
         parser.error("--interval must be non-negative")
     while True:
         snapshot = collect(args.rpc_url, include_offchain=not args.no_offchain)
-        write_outputs(snapshot, args.out_dir)
-        print(f"wrote {args.out_dir / 'report.json'}, {args.out_dir / 'report.md'}, {args.out_dir / 'dashboard.html'} at {snapshot['generatedAt']}")
+        if args.stdout:
+            print(json.dumps(snapshot, indent=2, ensure_ascii=False))
+        else:
+            write_outputs(snapshot, args.out_dir)
+            print(f"wrote {args.out_dir / 'report.json'}, {args.out_dir / 'report.md'}, {args.out_dir / 'dashboard.html'} at {snapshot['generatedAt']}")
         if not args.interval:
             return 0
         time.sleep(args.interval)
