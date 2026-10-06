@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-06T09:24:29Z",
+  "generatedAt": "2026-10-06T16:15:48Z",
   "network": {
     "name": "Solana",
     "cluster": "mainnet-beta",
@@ -10,69 +10,69 @@
     "rpc": "ok",
     "rpcChecksPassed": 7,
     "rpcChecksTotal": 7,
-    "slot": 453860306,
-    "blockHeight": 431898134,
-    "blockTime": 1791278661
+    "slot": 453952434,
+    "blockHeight": 431990207,
+    "blockTime": 1791303340
   },
   "epoch": {
     "epoch": 1050,
-    "absoluteSlot": 453860306,
-    "slotIndex": 260306,
+    "absoluteSlot": 453952434,
+    "slotIndex": 352434,
     "slotsInEpoch": 432000,
-    "transactionCount": 556679438742,
-    "progress": 0.6025601851851852
+    "transactionCount": 556791479505,
+    "progress": 0.8158194444444444
   },
   "performance": {
     "sampleCount": 5,
     "latest": {
-      "numTransactions": 236403.0,
+      "numTransactions": 301419.0,
       "samplePeriodSecs": 60.0,
-      "numSlots": 220.0,
-      "tps": 3940.05,
-      "slotTimeMs": 272.72727272727275
+      "numSlots": 226.0,
+      "tps": 5023.65,
+      "slotTimeMs": 265.4867256637168
     },
     "samples": [
       {
-        "numTransactions": 236403.0,
+        "numTransactions": 301419.0,
+        "samplePeriodSecs": 60.0,
+        "numSlots": 226.0,
+        "tps": 5023.65,
+        "slotTimeMs": 265.4867256637168
+      },
+      {
+        "numTransactions": 297087.0,
+        "samplePeriodSecs": 60.0,
+        "numSlots": 217.0,
+        "tps": 4951.45,
+        "slotTimeMs": 276.49769585253455
+      },
+      {
+        "numTransactions": 322868.0,
         "samplePeriodSecs": 60.0,
         "numSlots": 220.0,
-        "tps": 3940.05,
+        "tps": 5381.133333333333,
         "slotTimeMs": 272.72727272727275
       },
       {
-        "numTransactions": 250933.0,
+        "numTransactions": 316895.0,
         "samplePeriodSecs": 60.0,
-        "numSlots": 228.0,
-        "tps": 4182.216666666666,
-        "slotTimeMs": 263.1578947368421
+        "numSlots": 219.0,
+        "tps": 5281.583333333333,
+        "slotTimeMs": 273.972602739726
       },
       {
-        "numTransactions": 262585.0,
+        "numTransactions": 316573.0,
         "samplePeriodSecs": 60.0,
-        "numSlots": 225.0,
-        "tps": 4376.416666666667,
-        "slotTimeMs": 266.6666666666667
-      },
-      {
-        "numTransactions": 257673.0,
-        "samplePeriodSecs": 60.0,
-        "numSlots": 225.0,
-        "tps": 4294.55,
-        "slotTimeMs": 266.6666666666667
-      },
-      {
-        "numTransactions": 247106.0,
-        "samplePeriodSecs": 60.0,
-        "numSlots": 229.0,
-        "tps": 4118.433333333333,
-        "slotTimeMs": 262.0087336244541
+        "numSlots": 215.0,
+        "tps": 5276.216666666666,
+        "slotTimeMs": 279.06976744186045
       }
     ],
     "anomaly": {
-      "baselineTps": 4238.383333333333,
-      "baselineSlotTimeMs": 264.9122807017544,
-      "tpsDelta": -0.07038847359252538,
-      "slotTimeDelta": 0.029500301023479808,
+      "baselineTps": 5278.9,
+      "baselineSlotTimeMs": 275.2351492961303,
+      "tpsDelta": -0.048352876546250166,
+      "slotTimeDelta": -0.03541852723877576,
       "flags": []
     }
   },
@@ -155,31 +155,31 @@
     ]
   },
   "supply": {
-    "totalLamports": 635304960076534200,
-    "circulatingLamports": 588385438351602710,
-    "nonCirculatingLamports": 46919521724931490
+    "totalLamports": 635304667956961111,
+    "circulatingLamports": 588385146222026181,
+    "nonCirculatingLamports": 46919521734934930
   },
   "economics": {
     "sol": {
-      "priceUsd": 120.4,
-      "change24h": -0.31865178883936446
+      "priceUsd": 120.98,
+      "change24h": 1.314009909236008
     },
     "tvl": {
-      "tvlUsd": 6769472339.0,
+      "tvlUsd": 6795734518.0,
       "date": 1791244800
     },
     "chainOverview": {
-      "tvlUsd": 6773384936.230745,
+      "tvlUsd": 6807820684.12066,
       "stablecoinsUsd": null,
       "mcapUsd": null
     },
     "dex": {
-      "volume24hUsd": 1904732429.5000002,
-      "volume7dUsd": 14825162180.649996,
-      "change24h": 11.51
+      "volume24hUsd": 2057146062.5000002,
+      "volume7dUsd": 15672173109.649996,
+      "change24h": 20.43
     },
     "stablecoins": {
-      "supplyUsd": 17050993327.47,
+      "supplyUsd": 17051334674.869999,
       "date": "1791244800"
     }
   },
@@ -193,57 +193,57 @@
     }
   ],
   "sources": {
-    "epochInfo": {
-      "ok": true,
-      "elapsedMs": 164
-    },
     "slot": {
       "ok": true,
-      "elapsedMs": 165
+      "elapsedMs": 244
+    },
+    "epochInfo": {
+      "ok": true,
+      "elapsedMs": 249
     },
     "blockHeight": {
       "ok": true,
-      "elapsedMs": 165
-    },
-    "health": {
-      "ok": true,
-      "elapsedMs": 211
+      "elapsedMs": 250
     },
     "performance": {
       "ok": true,
-      "elapsedMs": 206
+      "elapsedMs": 248
+    },
+    "health": {
+      "ok": true,
+      "elapsedMs": 254
     },
     "voteAccounts": {
       "ok": true,
-      "elapsedMs": 238
+      "elapsedMs": 451
     },
     "supply": {
       "ok": true,
-      "elapsedMs": 5566
-    },
-    "chainOverview": {
-      "ok": true,
-      "elapsedMs": 67
+      "elapsedMs": 5564
     },
     "chainTvl": {
       "ok": true,
-      "elapsedMs": 73
+      "elapsedMs": 161
+    },
+    "chainOverview": {
+      "ok": true,
+      "elapsedMs": 162
     },
     "solPrice": {
       "ok": true,
-      "elapsedMs": 108
+      "elapsedMs": 172
     },
     "stablecoins": {
       "ok": true,
-      "elapsedMs": 1267
+      "elapsedMs": 207
     },
     "dexOverview": {
       "ok": true,
-      "elapsedMs": 1577
+      "elapsedMs": 1126
     },
     "blockTime": {
       "ok": true,
-      "elapsedMs": 108
+      "elapsedMs": 192
     }
   }
 }
