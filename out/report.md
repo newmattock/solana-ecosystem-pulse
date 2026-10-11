@@ -1,6 +1,6 @@
 # Solana Ecosystem Pulse
 
-Generated: `2026-10-11T01:50:26Z`  
+Generated: `2026-10-11T08:45:09Z`  
 Cluster: `mainnet-beta`  
 Read-only status: **OK**
 
@@ -11,30 +11,30 @@ Read-only status: **OK**
 | Metric | Value |
 | --- | ---: |
 | RPC health | `ok` |
-| Slot / block height | `455475569` / `433512739` |
-| Epoch / progress | `1054` / `34.16%` |
-| Recent throughput | `4.7K` TPS |
-| Recent slot time | `224.72` ms |
-| Active validators | `675` |
-| Delinquent validators | `5` (0.74%) |
-| SOL price | `$110.08` (0.25% 24h) |
-| Solana TVL | `$6,219,171,889.00` |
-| DEX volume | `$1,579,782,608.57` (24h) |
-| Stablecoin supply | `$16,406,412,879.91` |
+| Slot / block height | `455589820` / `433626976` |
+| Epoch / progress | `1054` / `60.61%` |
+| Recent throughput | `4.3K` TPS |
+| Recent slot time | `214.29` ms |
+| Active validators | `673` |
+| Delinquent validators | `7` (1.03%) |
+| SOL price | `$109.34` (-0.39% 24h) |
+| Solana TVL | `$6,202,800,571.00` |
+| DEX volume | `$1,579,981,826.57` (24h) |
+| Stablecoin supply | `$16,405,193,331.73` |
 
 ## Network performance
 
 | Sample | TPS | Slot time | Transactions |
 | ---: | ---: | ---: | ---: |
-| 60.0 s | 4.7K | 224.72 ms | 285K |
-| 60.0 s | 4.5K | 216.61 ms | 272K |
-| 60.0 s | 4.6K | 217.39 ms | 278K |
-| 60.0 s | 4.6K | 214.29 ms | 275K |
-| 60.0 s | 4.4K | 218.18 ms | 265K |
+| 60.0 s | 4.3K | 214.29 ms | 256K |
+| 60.0 s | 4.3K | 212.01 ms | 258K |
+| 60.0 s | 4.1K | 221.40 ms | 247K |
+| 60.0 s | 4.1K | 218.98 ms | 246K |
+| 60.0 s | 4.3K | 216.61 ms | 258K |
 
 ## Validator concentration
 
-Total active stake: `438728803B` lamports. The table is ranked by activated stake; vote and node keys are identifiers, not labels for operators.
+Total active stake: `438663088B` lamports. The table is ranked by activated stake; vote and node keys are identifiers, not labels for operators.
 
 | Rank | Vote account | Stake share | Commission |
 | ---: | --- | ---: | ---: |
@@ -51,7 +51,7 @@ Total active stake: `438728803B` lamports. The table is ranked by activated stak
 
 ## Signals
 
-- No configured watch thresholds were crossed in this snapshot.
+- **watch** `validator-delinquency`
 
 ## Sources and limitations
 
