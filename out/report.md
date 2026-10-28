@@ -1,6 +1,6 @@
 # Solana Ecosystem Pulse
 
-Generated: `2026-10-28T02:11:18Z`  
+Generated: `2026-10-28T08:23:57Z`  
 Cluster: `mainnet-beta`  
 Read-only status: **OK**
 
@@ -11,30 +11,30 @@ Read-only status: **OK**
 | Metric | Value |
 | --- | ---: |
 | RPC health | `ok` |
-| Slot / block height | `462302385` / `440327064` |
-| Epoch / progress | `1070` / `14.44%` |
-| Recent throughput | `1.8K` TPS |
-| Recent slot time | `214.29` ms |
-| Active validators | `662` |
-| Delinquent validators | `29` (4.20%) |
-| SOL price | `$101.44` (0.97% 24h) |
-| Solana TVL | `$5,691,891,501.00` |
-| DEX volume | `$1,848,988,925.55` (24h) |
-| Stablecoin supply | `$15,779,317,711.39` |
+| Slot / block height | `462407411` / `440432009` |
+| Epoch / progress | `1070` / `38.75%` |
+| Recent throughput | `1.2K` TPS |
+| Recent slot time | `211.27` ms |
+| Active validators | `661` |
+| Delinquent validators | `30` (4.34%) |
+| SOL price | `$102.35` (2.49% 24h) |
+| Solana TVL | `$5,730,676,736.00` |
+| DEX volume | `$1,848,987,960.55` (24h) |
+| Stablecoin supply | `$15,779,295,352.55` |
 
 ## Network performance
 
 | Sample | TPS | Slot time | Transactions |
 | ---: | ---: | ---: | ---: |
-| 60.0 s | 1.8K | 214.29 ms | 106K |
-| 60.0 s | 1.6K | 213.52 ms | 98K |
-| 60.0 s | 1.7K | 212.01 ms | 99K |
-| 60.0 s | 1.7K | 216.61 ms | 100K |
-| 60.0 s | 1.7K | 212.77 ms | 102K |
+| 60.0 s | 1.2K | 211.27 ms | 70K |
+| 60.0 s | 1.1K | 215.83 ms | 66K |
+| 60.0 s | 1.3K | 216.61 ms | 76K |
+| 60.0 s | 1.3K | 214.29 ms | 79K |
+| 60.0 s | 1.5K | 215.05 ms | 88K |
 
 ## Validator concentration
 
-Total active stake: `433415733B` lamports. The table is ranked by activated stake; vote and node keys are identifiers, not labels for operators.
+Total active stake: `433357455B` lamports. The table is ranked by activated stake; vote and node keys are identifiers, not labels for operators.
 
 | Rank | Vote account | Stake share | Commission |
 | ---: | --- | ---: | ---: |
@@ -44,7 +44,7 @@ Total active stake: `433415733B` lamports. The table is ranked by activated stak
 | 4 | `8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD` | 2.50% | 0% |
 | 5 | `CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb` | 2.24% | 5% |
 | 6 | `51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm` | 2.18% | 10% |
-| 7 | `26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx` | 2.12% | 7% |
+| 7 | `26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx` | 2.13% | 7% |
 | 8 | `9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF` | 1.79% | 7% |
 | 9 | `CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB` | 1.62% | 5% |
 | 10 | `DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a` | 1.61% | 0% |
