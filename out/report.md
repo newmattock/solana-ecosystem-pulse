@@ -1,6 +1,6 @@
 # Solana Ecosystem Pulse
 
-Generated: `2026-10-30T15:52:58Z`  
+Generated: `2026-10-30T20:44:48Z`  
 Cluster: `mainnet-beta`  
 Read-only status: **OK**
 
@@ -11,35 +11,35 @@ Read-only status: **OK**
 | Metric | Value |
 | --- | ---: |
 | RPC health | `ok` |
-| Slot / block height | `463342601` / `441364917` |
-| Epoch / progress | `1072` / `55.23%` |
-| Recent throughput | `2.8K` TPS |
-| Recent slot time | `209.79` ms |
-| Active validators | `667` |
-| Delinquent validators | `24` (3.47%) |
-| SOL price | `$94.44` (-7.81% 24h) |
-| Solana TVL | `$5,326,451,705.00` |
+| Slot / block height | `463424262` / `441446547` |
+| Epoch / progress | `1072` / `74.13%` |
+| Recent throughput | `1.5K` TPS |
+| Recent slot time | `214.29` ms |
+| Active validators | `666` |
+| Delinquent validators | `25` (3.62%) |
+| SOL price | `$94.99` (-1.93% 24h) |
+| Solana TVL | `$5,284,254,573.00` |
 | DEX volume | `$2,295,364,281.70` (24h) |
-| Stablecoin supply | `$15,449,930,928.53` |
+| Stablecoin supply | `$15,450,098,100.45` |
 
 ## Network performance
 
 | Sample | TPS | Slot time | Transactions |
 | ---: | ---: | ---: | ---: |
-| 60.0 s | 2.8K | 209.79 ms | 168K |
-| 60.0 s | 2.2K | 212.01 ms | 134K |
-| 60.0 s | 2.1K | 216.61 ms | 126K |
-| 60.0 s | 2.1K | 213.52 ms | 127K |
-| 60.0 s | 2.7K | 214.29 ms | 160K |
+| 60.0 s | 1.5K | 214.29 ms | 92K |
+| 60.0 s | 1.7K | 214.29 ms | 103K |
+| 60.0 s | 1.8K | 212.01 ms | 108K |
+| 60.0 s | 2.1K | 220.59 ms | 124K |
+| 60.0 s | 1.8K | 215.83 ms | 107K |
 
 ## Validator concentration
 
-Total active stake: `432645740B` lamports. The table is ranked by activated stake; vote and node keys are identifiers, not labels for operators.
+Total active stake: `432508791B` lamports. The table is ranked by activated stake; vote and node keys are identifiers, not labels for operators.
 
 | Rank | Vote account | Stake share | Commission |
 | ---: | --- | ---: | ---: |
 | 1 | `CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1` | 3.92% | 7% |
-| 2 | `he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk` | 3.85% | 0% |
+| 2 | `he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk` | 3.86% | 0% |
 | 3 | `3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g` | 2.99% | 0% |
 | 4 | `8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD` | 2.43% | 0% |
 | 5 | `CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb` | 2.23% | 5% |
@@ -51,7 +51,6 @@ Total active stake: `432645740B` lamports. The table is ranked by activated stak
 
 ## Signals
 
-- **watch** `tps-shift`
 - **watch** `validator-delinquency`
 
 ## Sources and limitations
