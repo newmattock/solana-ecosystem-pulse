@@ -1,6 +1,6 @@
 # Solana Ecosystem Pulse
 
-Generated: `2026-11-01T16:23:06Z`  
+Generated: `2026-11-01T20:49:27Z`  
 Cluster: `mainnet-beta`  
 Read-only status: **OK**
 
@@ -11,30 +11,30 @@ Read-only status: **OK**
 | Metric | Value |
 | --- | ---: |
 | RPC health | `ok` |
-| Slot / block height | `464157725` / `442179196` |
-| Epoch / progress | `1074` / `43.92%` |
-| Recent throughput | `1.6K` TPS |
-| Recent slot time | `215.83` ms |
-| Active validators | `663` |
-| Delinquent validators | `33` (4.74%) |
-| SOL price | `$94.66` (-1.35% 24h) |
-| Solana TVL | `$5,398,521,742.00` |
-| DEX volume | `$953,373,035.19` (24h) |
-| Stablecoin supply | `$15,510,893,081.36` |
+| Slot / block height | `464232340` / `442253790` |
+| Epoch / progress | `1074` / `61.19%` |
+| Recent throughput | `1.7K` TPS |
+| Recent slot time | `212.01` ms |
+| Active validators | `662` |
+| Delinquent validators | `34` (4.89%) |
+| SOL price | `$94.19` (-1.48% 24h) |
+| Solana TVL | `$5,375,451,338.00` |
+| DEX volume | `$953,585,251.19` (24h) |
+| Stablecoin supply | `$15,507,418,822.94` |
 
 ## Network performance
 
 | Sample | TPS | Slot time | Transactions |
 | ---: | ---: | ---: | ---: |
-| 60.0 s | 1.6K | 215.83 ms | 95K |
-| 60.0 s | 1.5K | 215.83 ms | 91K |
-| 60.0 s | 1.8K | 213.52 ms | 109K |
-| 60.0 s | 1.9K | 214.29 ms | 115K |
-| 60.0 s | 1.8K | 211.27 ms | 111K |
+| 60.0 s | 1.7K | 212.01 ms | 104K |
+| 60.0 s | 2.4K | 215.05 ms | 147K |
+| 60.0 s | 4.1K | 216.61 ms | 247K |
+| 60.0 s | 2.3K | 212.01 ms | 139K |
+| 60.0 s | 2.3K | 216.61 ms | 138K |
 
 ## Validator concentration
 
-Total active stake: `429390121B` lamports. The table is ranked by activated stake; vote and node keys are identifiers, not labels for operators.
+Total active stake: `429387433B` lamports. The table is ranked by activated stake; vote and node keys are identifiers, not labels for operators.
 
 | Rank | Vote account | Stake share | Commission |
 | ---: | --- | ---: | ---: |
@@ -51,6 +51,7 @@ Total active stake: `429390121B` lamports. The table is ranked by activated stak
 
 ## Signals
 
+- **watch** `tps-shift`
 - **watch** `validator-delinquency`
 
 ## Sources and limitations
