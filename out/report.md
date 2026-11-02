@@ -1,6 +1,6 @@
 # Solana Ecosystem Pulse
 
-Generated: `2026-11-02T06:48:35Z`  
+Generated: `2026-11-02T17:01:14Z`  
 Cluster: `mainnet-beta`  
 Read-only status: **OK**
 
@@ -11,30 +11,30 @@ Read-only status: **OK**
 | Metric | Value |
 | --- | ---: |
 | RPC health | `ok` |
-| Slot / block height | `464400096` / `442421467` |
-| Epoch / progress | `1075` / `0.02%` |
-| Recent throughput | `1.1K` TPS |
+| Slot / block height | `464571545` / `442592678` |
+| Epoch / progress | `1075` / `39.71%` |
+| Recent throughput | `2.6K` TPS |
 | Recent slot time | `214.29` ms |
-| Active validators | `666` |
-| Delinquent validators | `28` (4.03%) |
-| SOL price | `$94.20` (-1.36% 24h) |
-| Solana TVL | `$5,478,860,110.00` |
-| DEX volume | `$832,668,230.19` (24h) |
-| Stablecoin supply | `$15,442,459,830.82` |
+| Active validators | `665` |
+| Delinquent validators | `29` (4.18%) |
+| SOL price | `$93.30` (-1.46% 24h) |
+| Solana TVL | `$5,431,386,632.00` |
+| DEX volume | `$905,602,298.19` (24h) |
+| Stablecoin supply | `$15,440,488,277.83` |
 
 ## Network performance
 
 | Sample | TPS | Slot time | Transactions |
 | ---: | ---: | ---: | ---: |
-| 60.0 s | 1.1K | 214.29 ms | 68K |
-| 60.0 s | 1.4K | 212.01 ms | 84K |
-| 60.0 s | 1.0K | 211.27 ms | 63K |
-| 60.0 s | 1.1K | 215.83 ms | 64K |
-| 60.0 s | 1.1K | 212.01 ms | 63K |
+| 60.0 s | 2.6K | 214.29 ms | 155K |
+| 60.0 s | 2.2K | 213.52 ms | 130K |
+| 60.0 s | 2.3K | 215.05 ms | 140K |
+| 60.0 s | 1.8K | 219.78 ms | 109K |
+| 60.0 s | 2.0K | 216.61 ms | 118K |
 
 ## Validator concentration
 
-Total active stake: `429734753B` lamports. The table is ranked by activated stake; vote and node keys are identifiers, not labels for operators.
+Total active stake: `429771469B` lamports. The table is ranked by activated stake; vote and node keys are identifiers, not labels for operators.
 
 | Rank | Vote account | Stake share | Commission |
 | ---: | --- | ---: | ---: |
@@ -51,6 +51,7 @@ Total active stake: `429734753B` lamports. The table is ranked by activated stak
 
 ## Signals
 
+- **watch** `tps-shift`
 - **watch** `validator-delinquency`
 
 ## Sources and limitations
